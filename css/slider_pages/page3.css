@@ -1,0 +1,26 @@
+#page_3 {
+  background-image: url(../../img/yellow-background.png);
+  background-size: 400px;
+}
+#page_3 article {
+  background-color: var(--page3-article-bg);
+}
+#page_3 article div h2 {
+  color: var(--page3-title);
+}
+#page_3 article div h3 {
+  color: var(--page3-subtitle);
+}
+#page_3 article div p {
+  color: var(--page3-text);
+}
+#page_3 aside {
+  background-color: var(--page3-img-bg);
+}
+#page_3 article .button_div a {
+  background-color: var(--page3-btn-bg);
+  color: var(--page3-btn-text);
+}
+#page_3 article .button_div a:hover {
+  background-color: var(--page3-btn-hover);
+}

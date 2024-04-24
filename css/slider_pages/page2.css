@@ -1,0 +1,26 @@
+#page_2 {
+  background-image: url(../../img/pink_background.jpg);
+  background-size: 800px;
+}
+#page_2 article {
+  background-color: var(--page2-article-bg);
+}
+#page_2 article div h2 {
+  color: var(--page2-title);
+}
+#page_2 article div h3 {
+  color: var(--page2-subtitle);
+}
+#page_2 article div p {
+  color: var(--page2-text);
+}
+#page_2 aside {
+  background-color: var(--page2-img-bg);
+}
+#page_2 article .button_div a {
+  background-color: var(--page2-btn-bg);
+  color: var(--page2-btn-text);
+}
+#page_2 article .button_div a:hover {
+  background-color: var(--page2-btn-hover);
+}

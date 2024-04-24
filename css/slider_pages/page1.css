@@ -1,0 +1,25 @@
+#page_1 {
+  background-image: url(../../img/cinnamon_background.jpg);
+}
+#page_1 article {
+  background-color: var(--page1-article-bg);
+}
+#page_1 article div h2 {
+  color: var(--page1-title);
+}
+#page_1 article div h3 {
+  color: var(--page1-subtitle);
+}
+#page_1 article div p {
+  color: var(--page1-text);
+}
+#page_1 aside {
+  background-color: var(--page1-img-bg);
+}
+#page_1 article .button_div a {
+  background-color: var(--page1-btn-bg);
+  color: var(--page1-btn-text);
+}
+#page_1 article .button_div a:hover {
+  background-color: var(--page1-btn-hover);
+}

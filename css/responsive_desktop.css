@@ -1,0 +1,17 @@
+@media only screen and (min-width: 812px) {
+  article {
+    width: 40vw;
+    margin: auto;
+  }
+  article div {
+    padding: 0px 30px;
+  }
+
+  .perfum_image {
+    width: 45vw;
+  }
+  section {
+    flex-direction: row;
+    width: 100vw;
+  }
+}

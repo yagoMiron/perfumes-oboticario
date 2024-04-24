@@ -1,0 +1,41 @@
+:root {
+  --header-main-bg: rgba(255, 188, 111, 0.711);
+  --footer-border: brown;
+
+  --page1-title: rgb(211, 152, 25);
+  --page1-subtitle: rgb(211, 133, 25);
+  --page1-text: rgb(148, 79, 10);
+  --page1-img-bg: rgb(255, 238, 215);
+  --page1-article-bg: white;
+  --page1-btn-bg: rgb(211, 133, 25);
+  --page1-btn-hover: rgba(255, 188, 111, 0.711);
+  --page1-btn-text: white;
+
+  --page2-title: rgb(229, 18, 81);
+  --page2-subtitle: rgb(255, 39, 104);
+  --page2-text: rgb(181, 0, 54);
+  --page2-img-bg: rgb(255, 211, 228);
+  --page2-article-bg: white;
+  --page2-btn-bg: rgb(181, 0, 54);
+  --page2-btn-hover: rgb(255, 39, 104);
+  --page2-btn-text: white;
+
+  --page3-title: rgb(176, 136, 2);
+  --page3-subtitle: rgb(229, 187, 50);
+  --page3-text: rgb(97, 56, 2);
+  --page3-img-bg: rgb(255, 231, 113);
+  --page3-article-bg: white;
+  --page3-btn-bg: rgb(176, 136, 2);
+  --page3-btn-hover: rgb(229, 187, 50);
+  --page3-btn-text: white;
+
+  --page4-title: gold;
+  --page4-subtitle: rgb(250, 221, 52);
+  --page4-text: rgb(255, 194, 38);
+  --page4-img-bg: rgb(1, 73, 75);
+  --page4-article-bg: rgb(1, 73, 75);
+  --page4-border: goldenrod;
+  --page4-btn-bg: rgb(1, 108, 112);
+  --page4-btn-hover: rgb(2, 162, 168);
+  --page4-btn-text: gold;
+}
