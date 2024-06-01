@@ -11,7 +11,7 @@ header {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  background-color: var(--header-main-bg);
+  background-color: var(--header-main);
   border-bottom: 2px solid var(--footer-border);
   padding: 5px 15px;
   padding-right: calc(50vw - 75px);
@@ -20,12 +20,12 @@ header {
   display: none;
 }
 *:has(#menu_input:checked) #menu_icon {
-  background-image: url(../icons/menu-white.svg);
+  background-image: var(--selected-svg-menu);
   background-color: var(--footer-border);
   filter: drop-shadow(5px 5px 5px black);
 }
 #menu_icon {
-  background-image: url(../icons/menu-black.svg);
+  background-image: var(--svg-menu);
   background-size: 48px;
   background-repeat: no-repeat;
   transition: 0.5s;
@@ -34,7 +34,7 @@ header {
 }
 #menu_icon:hover {
   cursor: pointer;
-  background-image: url(../icons/menu-white.svg);
+  background-image: var(--selected-svg-menu);
   background-color: var(--footer-border);
 }
 nav {
@@ -82,14 +82,14 @@ nav ul li:hover a {
   flex-direction: column;
 }
 
-header img {
+header object {
   width: 150px;
 }
 main {
   min-height: calc(100vh - 132px);
   width: 100vw;
   overflow: hidden;
-  background-color: var(--header-main-bg);
+  background-color: var(--header-main);
 }
 .slides {
   width: 400vw;
@@ -164,7 +164,7 @@ footer {
   justify-content: center;
 }
 footer a {
-  color: var(--header-main-bg);
+  color: var(--header-main);
   font-weight: 600;
   font-size: 20px;
 }

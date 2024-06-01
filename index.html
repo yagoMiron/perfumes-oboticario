@@ -38,10 +38,10 @@
   <body>
     <main>
       <div class="slides">
-        <input type="radio" name="radio_btn" id="radio1" checked />
-        <input type="radio" name="radio_btn" id="radio2" />
-        <input type="radio" name="radio_btn" id="radio3" />
-        <input type="radio" name="radio_btn" id="radio4" />
+        <input type="radio" name="radio_btn" class="radio_btn" id="radio1" checked />
+        <input type="radio" name="radio_btn" class="radio_btn" id="radio2" />
+        <input type="radio" name="radio_btn" class="radio_btn" id="radio3" />
+        <input type="radio" name="radio_btn" class="radio_btn" id="radio4" />
 
         <div class="slide first">
           <section id="page_1">
@@ -248,7 +248,8 @@
           </nav>
         </div>
       </div>
-      <img src="img/o-boticario-logo.png" alt="o-boticário logo" />
+      <object data="img/o-boticario-logo.svg" type="image/svg+xml" id="logo">
+      </object>
     </header>
 
     <footer>
@@ -256,5 +257,7 @@
         &copy; Desenvolvido por Yago Miron
       </a>
     </footer>
+
+    <script type="module" src="app/index.js"></script>
   </body>
 </html>
