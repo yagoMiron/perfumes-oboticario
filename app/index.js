@@ -2,15 +2,7 @@ const radios = document.querySelectorAll(".radio_btn");
 const delay = (millisegundos) => {
   return new Promise((resolve) => setTimeout(resolve, millisegundos));
 };
-
-var SVG = document.getElementById("logo");
-SVG.addEventListener(
-  "load",
-  function () {
-    setThema(achaPosicao());
-  },
-  false
-);
+radios[0].checked = true;
 
 for (let index = 0; index < radios.length; index++) {
   radios[index].addEventListener("click", () => {
